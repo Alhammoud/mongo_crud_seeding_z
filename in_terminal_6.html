@@ -1,0 +1,630 @@
+<pre><font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS/mongoDb_21</b></font>$ ll
+total 152
+drwxr-xr-x  3 temp temp  4096 Okt 14 15:39 <font color="#729FCF"><b>.</b></font>/
+drwxrwxr-x 31 temp temp  4096 Okt 15 09:45 <font color="#729FCF"><b>..</b></font>/
+-rw-r--r--  1 temp temp    47 Okt 14 15:21 .env
+-rw-r--r--  1 temp temp     9 Okt 14 15:22 .env.example
+-rw-r--r--  1 temp temp    17 Okt 15 09:48 .gitignore
+-rw-r--r--  1 temp temp   176 Okt 14 15:29 index.js
+-rw-r--r--  1 temp temp 54396 Okt 14 14:29 in_terminal2.html
+-rw-r--r--  1 temp temp 19909 Okt 14 15:27 in_terminal_3.html
+-rw-r--r--  1 temp temp  2712 Okt 14 15:39 in_terminal_4.html
+-rw-r--r--  1 temp temp 11463 Okt 14 13:21 in_terminal.html
+drwxr-xr-x 21 temp temp  4096 Okt 14 15:20 <font color="#729FCF"><b>node_modules</b></font>/
+-rw-r--r--  1 temp temp   375 Okt 14 15:01 package.json
+-rw-r--r--  1 temp temp  5444 Okt 14 15:01 package-lock.json
+-rw-r--r--  1 temp temp   273 Okt 15 09:25 Post.js
+-rw-r--r--  1 temp temp  1600 Okt 15 09:39 seeds.js
+-rw-r--r--  1 temp temp   435 Okt 14 14:44 task2.txt
+-rw-r--r--  1 temp temp   180 Okt 14 15:28 task3.txt
+-rw-r--r--  1 temp temp   610 Okt 14 13:52 task.txt
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS/mongoDb_21</b></font>$ git status 
+On branch master
+Your branch is up to date with &apos;origin/master&apos;.
+
+Changes to be committed:
+  (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+
+	<font color="#4E9A06">modified:   .gitignore</font>
+
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS/mongoDb_21</b></font>$ git remote -v
+origin	https://github.com/Alhammoud/Zohir_DCI.git (fetch)
+origin	https://github.com/Alhammoud/Zohir_DCI.git (push)
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS/mongoDb_21</b></font>$ git init 
+Initialized empty Git repository in /home/temp/Desktop/Zohir_DCI/NodeJS/mongoDb_21/.git/
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS/mongoDb_21</b></font>$ git status 
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use &quot;git add &lt;file&gt;...&quot; to include in what will be committed)
+
+	<font color="#CC0000">.env.example</font>
+	<font color="#CC0000">.gitignore</font>
+	<font color="#CC0000">Post.js</font>
+	<font color="#CC0000">in_terminal.html</font>
+	<font color="#CC0000">in_terminal2.html</font>
+	<font color="#CC0000">in_terminal_3.html</font>
+	<font color="#CC0000">in_terminal_4.html</font>
+	<font color="#CC0000">index.js</font>
+	<font color="#CC0000">package-lock.json</font>
+	<font color="#CC0000">package.json</font>
+	<font color="#CC0000">seeds.js</font>
+	<font color="#CC0000">task.txt</font>
+	<font color="#CC0000">task2.txt</font>
+	<font color="#CC0000">task3.txt</font>
+
+nothing added to commit but untracked files present (use &quot;git add&quot; to track)
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS/mongoDb_21</b></font>$ cd ..
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS</b></font>$ ls$
+
+Command &apos;ls$&apos; not found, did you mean:
+
+  command &apos;lsd&apos; from snap lsd (0.16.0)
+  command &apos;lsh&apos; from deb lsh-client
+  command &apos;lsw&apos; from deb suckless-tools
+  command &apos;ls&apos; from deb coreutils
+  command &apos;lsm&apos; from deb lsm
+  command &apos;lsc&apos; from deb livescript
+
+See &apos;snap info &lt;snapname&gt;&apos; for additional versions.
+
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS</b></font>$ git log
+<font color="#C4A000">commit adbdc505978d7b8ee1184426310390bd1000cee0 (</font><font color="#34E2E2"><b>HEAD -&gt; </b></font><font color="#8AE234"><b>master</b></font><font color="#C4A000">, </font><font color="#EF2929"><b>origin/master</b></font><font color="#C4A000">, </font><font color="#EF2929"><b>origin/HEAD</b></font><font color="#C4A000">)</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Oct 15 09:47:04 2019 +0200
+
+    ...ein paar Bearbeitungen
+
+<font color="#C4A000">commit 4b57d861cf55404909043b4c3750da3dbafd09e9</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Oct 14 15:51:20 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit 68d93bd3e26b8281b625fad7ebc5384f1311eb2a</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Oct 14 13:29:27 2019 +0200
+
+    ..gemischt und MongoDatenBank anfangen
+
+<font color="#C4A000">commit 5beeb528615d35315542fda63efcdca51e4ea2a4</font>
+Author: alhammoud &lt;&gt;
+Date:   Sun Oct 13 23:33:30 2019 +0200
+
+:...skipping...
+<font color="#C4A000">commit adbdc505978d7b8ee1184426310390bd1000cee0 (</font><font color="#34E2E2"><b>HEAD -&gt; </b></font><font color="#8AE234"><b>master</b></font><font color="#C4A000">, </font><font color="#EF2929"><b>origin/master</b></font><font color="#C4A000">, </font><font color="#EF2929"><b>origin/HEAD</b></font><font color="#C4A000">)</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Oct 15 09:47:04 2019 +0200
+
+    ...ein paar Bearbeitungen
+
+<font color="#C4A000">commit 4b57d861cf55404909043b4c3750da3dbafd09e9</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Oct 14 15:51:20 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit 68d93bd3e26b8281b625fad7ebc5384f1311eb2a</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Oct 14 13:29:27 2019 +0200
+
+    ..gemischt und MongoDatenBank anfangen
+
+<font color="#C4A000">commit 5beeb528615d35315542fda63efcdca51e4ea2a4</font>
+Author: alhammoud &lt;&gt;
+Date:   Sun Oct 13 23:33:30 2019 +0200
+
+    ..gemsicht
+
+<font color="#C4A000">commit ff9c0d84326d9344024be3a29410400b58eea5da</font>
+Author: alhammoud &lt;&gt;
+Date:   Fri Oct 11 16:38:39 2019 +0200
+
+    add miniblog_holger and my_blog
+
+<font color="#C4A000">commit 70fb8fb100c1b8a079488b0a2f980e8a5736b6a1</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Oct 10 20:45:22 2019 +0200
+
+    19_miniblog hinzufügen und miniblog Datenbank erstellen
+
+<font color="#C4A000">commit 282242be52ccf6c93da0fdf8025b9fd1d9b615b1</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Oct 10 14:00:28 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit a65385980d00bb7371c94c047121fc5a46f30b77</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Oct 9 22:39:31 2019 +0200
+
+    ..move few folder out this folder
+
+<font color="#C4A000">commit 7d753eabb2c0c2cee30baa7d053bfbfc2733df6e</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Oct 9 22:34:16 2019 +0200
+
+    ..added folder Desktop_DCI
+
+<font color="#C4A000">commit dd4f6d7d2d52e08026f781241e25e466a9b151a2</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Oct 9 22:26:12 2019 +0200
+
+    connecte zur Datenbank und passe deine Queries an.
+
+<font color="#C4A000">commit 6350fac3f16b39daaa636d8b45b59cae56aa94a6</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Oct 9 15:34:05 2019 +0200
+
+    ..18_usertable_mysql hinzufügt
+
+<font color="#C4A000">commit a26de2c40b3f576fc3689a25329f1c30791be5ef</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Oct 9 12:09:26 2019 +0200
+
+    ..17_mysql_nodejs fertig..
+
+<font color="#C4A000">commit 8ccc7e57bc77353e713e22ca8cfbd5dc0b165b1f</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Oct 8 23:09:37 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 5c7ab221bd26ecd6585c793bdcdcbdba3bcdeec8</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Oct 8 23:05:09 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit e753041fa1f916d0c8266b058b7411a851822548</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Oct 8 13:38:52 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit a0d1245dfc6875c26be1e113f5f3f4c770697b59</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Oct 7 13:43:53 2019 +0200
+
+    remove gitignore files
+
+<font color="#C4A000">commit 7f04b8550da3281219345522431b88fe5825cb43</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Oct 7 13:26:19 2019 +0200
+
+    add 15_fileupload
+
+<font color="#C4A000">commit 12e6e247bfa4e69537d6bada95a0b27c69b92a7f</font>
+Author: alhammoud &lt;&gt;
+Date:   Sun Oct 6 22:38:37 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 1d6ebafa6ddba9e45f36e3b8461ed4c074db7a36</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Sep 24 15:55:37 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 64de1bc58a3475465024780d5153f679a6d97308</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 23 21:09:07 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 953bea9d788a8800fbc8b9504f415b8286e8835f</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 23 16:06:04 2019 +0200
+
+    add 13_user_table
+
+<font color="#C4A000">commit bdf0c5b4310207770273d1885609b463b6b291cd</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Sep 19 21:04:25 2019 +0200
+
+    add toggle_on_off
+
+<font color="#C4A000">commit 7e3c5b8441f48afd1e08a05049adf41b7c5f338c</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Sep 19 15:12:16 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit d3b1d8973ee68677bb5be98bc32f56ffb5aeba18</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Sep 19 15:09:44 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit 74c7cb236eb31c1827b1a0e1e8518a7496622f34</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Sep 19 10:51:15 2019 +0200
+
+    04_task_css fertig
+
+<font color="#C4A000">commit 02472e83fc85d6b953899f44a1f555e31b775376</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 18 19:55:57 2019 +0200
+
+    somthing in 02_JSX add
+
+<font color="#C4A000">commit 88fb148eb04d541c24ac3a4673450d9844d5f702</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 18 16:04:58 2019 +0200
+
+    add 04_task_CSS
+
+<font color="#C4A000">commit 96a7e964ba4252f5bf27abbc94af5505c92804b1</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 18 15:39:51 2019 +0200
+
+    03_CSS
+
+<font color="#C4A000">commit cf6f605b4afdfec763aecacf5cf822bba56c14cb</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 18 15:23:13 2019 +0200
+
+    fertig mit 02_JSX
+
+<font color="#C4A000">commit 88efb028feeb267a4aa87582fc0e713e36eaab43</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 18 13:33:42 2019 +0200
+
+    fertig mit 01_helloWorld
+
+<font color="#C4A000">commit ca01158f3564fc360c829da596b3a4beecf2a108</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 18 11:12:01 2019 +0200
+
+    ...gemischt und start React mit Jan
+
+<font color="#C4A000">commit f95d467bde2955ab76bdc46b39bd43c0412f301a</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Sep 17 14:43:55 2019 +0200
+
+    fertig_mit_10_server_mit_parametern
+
+<font color="#C4A000">commit b2ea83ea74ad356a5e8617fa1655717b2748eb9b</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Sep 17 12:46:00 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 0fece09f8192a3fd0a118d4404af960f4c76ad06</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 16 22:20:57 2019 +0200
+
+    ..Etwas geamcht..
+
+<font color="#C4A000">commit 75e26fc606a32c22bb158d506ad7b994819eff92</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 16 13:57:54 2019 +0200
+
+    ..gemischt_16_09_2019
+
+<font color="#C4A000">commit 6d9b4fbb74cfa8160674cf6901a68cac23c32b41</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 16 13:44:47 2019 +0200
+
+    ..gemischt_16_09_2019
+
+<font color="#C4A000">commit 2635125508c1a28de9485a3703272f3777edd675</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 16 13:40:08 2019 +0200
+
+    ..gemischt_16_09_2019
+
+<font color="#C4A000">commit 1d5065926390819af55fdd599a7708dd6c16ab09</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 16 13:35:32 2019 +0200
+
+    ..gemischt_16_09_2019
+
+<font color="#C4A000">commit cde620f980ef91a5e74c6c5620cf7ee5cfcce767</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 16 13:31:51 2019 +0200
+
+    ..gemischt_16_09_2019
+
+<font color="#C4A000">commit 7d1f350ec39da62da61b90a8de0667637c12483a</font>
+Author: alhammoud &lt;&gt;
+Date:   Sat Sep 14 01:19:35 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit eb7685083f2633944950c917d7aaefccc2e9e2b8</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Sep 12 12:29:24 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 7011a0777107bb8f4e37a548d8ef516830b16595</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Sep 10 16:01:39 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit 2c3a85080cdeca244072f7e029058afdcfba497f</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 9 22:54:23 2019 +0200
+
+    really long commit message
+
+<font color="#C4A000">commit f2851929bf538aa53824b400123ab75ea53ec955</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Sep 9 16:02:07 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit b6cd0891737f8168254f20f11bbb4904c435a0b5</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Sep 5 15:31:20 2019 +0200
+
+    ..gemischtgit status
+
+<font color="#C4A000">commit 55a802cd5e66cca1508bb139c89aa8834fb58121</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 4 16:06:23 2019 +0200
+
+    ..gemischt
+
+<font color="#C4A000">commit 28ed7fd4956b033faac82e0b581f2fccb5bbbdca</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Sep 4 09:33:09 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit 9ebd454180fa91a5ecd41a98669a45b17cc7cee1</font>
+Author: alhammoud &lt;&gt;
+Date:   Tue Sep 3 10:12:07 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit ea62eec25fa5131d9012a000d57996cdaa462236</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Aug 29 10:24:31 2019 +0200
+
+    ...gemischt+63_Promise-all hinzufügen
+
+<font color="#C4A000">commit 61e45fa16c176e1b970ccddac65b93d08321b3c7</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Aug 29 09:13:50 2019 +0200
+
+    ...62_openweatherdata hinzufügen
+
+<font color="#C4A000">commit 3a40bcaa49bb95d28c759ed4f38445a43a969f36</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 28 11:46:44 2019 +0200
+
+    ...gemischt
+
+<font color="#C4A000">commit 24b47decfdb59a22172bd38d409fedee7d3a3867</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Aug 19 15:21:55 2019 +0200
+
+    gemischt ...
+
+<font color="#C4A000">commit fd8b0243034589e60ba4b657d64fd5561952a8c5</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Aug 15 12:04:17 2019 +0200
+
+    gemischt ...
+
+<font color="#C4A000">commit c8f5b879536486f595d8ccf0943fdd1e43224adb</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 14 15:44:34 2019 +0200
+
+    gemischt ...
+
+<font color="#C4A000">commit 12eb56246dbfd0c86e0c4937e72c17a5fcae4923</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Aug 12 16:02:38 2019 +0200
+
+    gemischt ...
+
+<font color="#C4A000">commit 02602dc682b8a27f05ffef2606ff0f14188fe56a</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Aug 12 10:57:41 2019 +0200
+
+    52_key_interpolation hinzufügen
+
+<font color="#C4A000">commit 7c68f43a05646a5d07fe5dccc16716ac07799881</font>
+Author: alhammoud &lt;&gt;
+Date:   Mon Aug 12 09:34:04 2019 +0200
+
+    some Edit
+
+<font color="#C4A000">commit fb1dafde505a70e9a6e81762cc561039a16bf4a0</font>
+Author: alhammoud &lt;&gt;
+Date:   Thu Aug 8 09:20:11 2019 +0200
+
+    Add File excerciseArray.js
+
+<font color="#C4A000">commit eaba79c2ac45ec1916338029958ed1f5354498bf</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 7 22:41:29 2019 +0200
+
+    Add the File javascript
+
+<font color="#C4A000">commit 7a9b0b1273551b90b3b3136855143eaf3a5de069</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 7 22:37:09 2019 +0200
+
+    Add the File HTML + CSS
+
+<font color="#C4A000">commit 6015f3a258fd3cee662491a4fe095fd2469fdbf4</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 7 15:50:49 2019 +0200
+
+    new edit
+
+<font color="#C4A000">commit 4c1563893252eb35a2e4549cfe79f9b51f962809</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 7 12:57:30 2019 +0200
+
+    Add Arrow Function Folder
+
+<font color="#C4A000">commit 0c955b4e99427c04b8a496073a2f78e093fb048d</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 7 11:59:39 2019 +0200
+
+    Edit File ,,,,,
+
+<font color="#C4A000">commit ad4f2cd82a9f25b16f6e1b215b13a99350881b96</font>
+Author: alhammoud &lt;&gt;
+Date:   Wed Aug 7 11:38:38 2019 +0200
+
+    Add The file rene_1_07_08_19
+
+<font color="#C4A000">commit a2e086b43df7fa8419559efa1db97092737e08f9</font>
+Author: Alhammoud &lt;45689826+Alhammoud@users.noreply.github.com&gt;
+Date:   Wed Aug 7 11:13:49 2019 +0200
+
+    Initial commit
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<font color="#8AE234"><b>temp@temp-Latitude-E5440</b></font>:<font color="#729FCF"><b>~/Desktop/Zohir_DCI/NodeJS</b></font>$ 
+</pre>
