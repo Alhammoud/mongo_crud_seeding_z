@@ -1,0 +1,12 @@
+Next task:
+
+Wir wollen das betanken der datenbank per script aufrufen.
+
+- Put the seed part in a seperate file seeds.js.
+
+- First find an existing collection. If there are entries present - don't seed - otherwise run the seed script.
+
+- Provide the possibilty to just delete the data. Use a command line flag for it. 
+
+  Eg: the command with the --delete flag node seeds.js --delete and in the code get this flag with: process.argv.includes("--delete")
+- Put eveything in a seperated seedfile and run that seed file per npm script. npm run seeds and a seperate delete script npm run seeds:delete (bearbeitet) 

@@ -1,0 +1,3 @@
+Last thing for today:
+After your scripts are done, your process is still running and you need to CTRL+C to quit it. That sucks.
+- Find out how to exit a node process (bearbeitet) 

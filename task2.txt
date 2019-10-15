@@ -1,0 +1,6 @@
+Protect your secrets instead of revealing them public on Github (before you commit them)
+- install dotenv
+- create a .env file and insert your mongodb connection string. eg: MONGOURL=mongodb://localhost:27017/marketing-website
+- require dotenv on top of your file.
+- check if you can read process.env and if it includes a secret from your .env file => process.env.MONGOURL
+- replace the connection string with the environment variable
